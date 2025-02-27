@@ -99,10 +99,12 @@ ii.	Initialize with README?
 
 
 iii.	Use .gitignore
+
 Helps prevent unnecessary files from being committed.
 
 
 iv.	License Selection
+
 Important for open-source projects (e.g., MIT, Apache, GPL).
 
 
@@ -117,26 +119,31 @@ A README is important because;
 
 
 1.	First Impression of the Project
+
 When someone visits your repository, the README is usually the first thing they see.
 It helps them quickly understand what the project is about and whether it’s useful or relevant.
 
 
 2.	Improves Collaboration
+
 Developers can easily grasp the project structure, purpose, and how to contribute.
 Clear guidelines reduce confusion and make onboarding smoother.
 
 
 3.	Provides Usage Instructions
+
 A README can explain how to install, configure, and use the project.
 This is essential for open-source projects where users need setup instructions.
 
 
 4.	Enhances Open Source Contribution
+
 Many open-source contributors rely on README files to decide whether to contribute.
 Including contribution guidelines makes it easier for newcomers to participate.
 
 
 5.	Boosts Project Credibility
+
 A well-structured README shows professionalism and increases trust in the project.
 It improves visibility and adoption in the developer community.
 
@@ -358,7 +365,7 @@ Key steps in a typical branch workflow:
  **Creating a branch:**
 
  
-i.Check out the main branch: Ensure you are on the stable "main" branch where you want to start your new feature branch. 
+I. Check out the main branch: Ensure you are on the stable "main" branch where you want to start your new feature branch. 
 
 
 ii. Create a new branch: Use a version control command (like git branch feature-name in Git) to create a new branch with a descriptive name that reflects the feature or task you're working on. 
@@ -446,13 +453,16 @@ Although both forking and cloning create copies of a repository, they serve diff
 
 If data is Forked from GitHub, it is stored under your account whereas, cloning takes it to your local machine.
 
-2.	Connection to the repo: 
+2.	Connection to the repo
+
 Forking retains a link to the original repo, allowing PRs whereas Cloning offers no direct link to the original repository.
 
-3.	Use Case: 
+3.	Use Case
+
 Forking is ideal for open-source contributions or modifying public projects meanwhile cloning is used for local development and testing
 
-4.	Visibility: 
+4.	Visibility
+
 Forking makes files publicly visible on your GitHub profile meanwhile Cloning makes your files private unless pushed to GitHub. 
 
 
@@ -537,6 +547,7 @@ Impact:
 New contributors easily find tasks to work on.
 
 Developers collaborate through issue discussions and pull requests.
+
 The project stays structured despite multiple contributors.
 
 
@@ -552,6 +563,7 @@ Scenario: A company is developing a mobile app with a team of developers, design
 
 Developers create issues for each feature or bug (e.g., "Implement user login system").
 Milestones track progress toward the app launch.
+
 A Project Board helps the team visualize work in different phases.
 
 Impact:
